@@ -1,0 +1,38 @@
+{
+  "name": "rip-subtitles",
+  "version": "0.0.1",
+  "description": "Rip subtitles from video files",
+  "main": "index.js",
+  "bin": {
+    "rip-subtitles": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callmehiphop/rip-subtitles.git"
+  },
+  "keywords": [
+    "rip",
+    "extract",
+    "subtitle",
+    "subtitles",
+    "mkv"
+  ],
+  "author": "Dave Gramlich <callmehiphop@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/callmehiphop/rip-subtitles/issues"
+  },
+  "homepage": "https://github.com/callmehiphop/rip-subtitles#readme",
+  "dependencies": {
+    "concat-stream": "^1.5.0",
+    "is-video": "^1.0.1",
+    "meow": "^3.3.0",
+    "node-ffprobe": "^1.2.2",
+    "object-assign": "^3.0.0",
+    "through2": "^2.0.0"
+  }
+}
